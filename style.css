@@ -30,12 +30,12 @@
 }
 
 .text-box h1 {
-    font-size: 62px;
+    font-size: 60px;
 }
 
 .text-box p {
-    margin: 10px 0 40px;
-    font-size: 14px;
+    margin: 10px 0 25px;
+    font-size: 20px;
     color: #fff;
 }
 
@@ -45,10 +45,11 @@
 
 .link-button {
     text-decoration: none;
+    font-size: 20px;
     background-image: linear-gradient(orange, tomato);
     padding: 10px 40px;
     border-radius: 5px;
-    font-weight: 700;
+    font-weight: 400;
     color: whitesmoke;
 
 
@@ -64,15 +65,15 @@
 }
 
 h1 {
-    font-size: 35px;
+    font-size: 40px;
     font-weight: 600;
 }
 
 p {
     color: rgb(39, 11, 11);
-    font-size: 14px;
-    font-weight: 200;
-    line-height: 20px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 22px;
     padding: 10px;
 }
 
@@ -83,17 +84,109 @@ p {
 }
 
 .colum-line {
-    flex-basis: 40%;
+    flex-basis: 31%;
     background: #fff3f3;
     border-radius: 7px;
     margin-bottom: 10%;
     padding: 20px 12px;
     box-sizing: border-box;
+    transition: 0.10;
 
 }
 
 h3 {
     text-align: center;
-    font-weight: 400;
+    font-size: 25px;
+    font-weight: 600;
     margin: 10px o;
+}
+
+.colum-line:hover {
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+}
+
+#detar-back-one {
+    background-color: rgb(193, 229, 217);
+}
+
+#detar-back-two {
+    background-color: rgb(221, 206, 222);
+}
+
+#detar-back-three {
+    background-color: rgb(242, 244, 204);
+
+}
+
+h2 {
+    font-size: 35px;
+
+}
+
+.lang-content {
+    margin: 10px;
+    padding: 25px;
+}
+
+.depend-donation {
+    display: flex;
+    margin-bottom: 100px;
+
+}
+
+.contri-notion {
+    width: 50%;
+    padding-left: 6%;
+
+
+}
+
+.contri-notion img {
+    width: 80%;
+}
+
+.Link-button {
+    text-decoration: none;
+    margin: 18px 10px;
+    font-size: 25px;
+    background-image: linear-gradient(orange, tomato);
+    padding: 10px 40px;
+    border-radius: 5px;
+    font-weight: 400;
+    color: whitesmoke;
+
+}
+
+.status-regular {
+    width: 80%;
+    margin: auto;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 100px;
+
+}
+
+.button-container {
+
+    justify-content: space-evenly;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 700;
+    display: flex;
+    font-size: 100px;
+    margin: 4px 2px;
+
+}
+
+.button {
+    background-color: rgb(241, 228, 228);
+    color: red;
+
+}
+
+.button-sec {
+    background-color: rgb(238, 20, 20);
+    color: rgb(10, 9, 9);
+
 }
